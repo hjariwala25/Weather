@@ -1,0 +1,9 @@
+
+.boxed-text {
+    border: 2px solid #000;
+    padding: 10px;
+    display: inline-block;
+    text-align: center; 
+    margin: -7px 367px 0px 311px;
+  }
+  
