@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/svg+xml" href="cloudy.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Weather APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -57,8 +58,8 @@
             <h1 class="card-title pricing-card-title"><span id="temp2"></span><small class="text-muted fw-light"><sup><span>&#8451;</span></sup></small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Temperature is <span id="temp"></span></li>
-              <li>Min Temperature is <span id="min_temp"></span></li>
-              <li>Max Temperature is <span id="max_temp"></span></li>
+              <li>Heat index is <span id="heat_index"></span></li>
+              <li>Pressure is <span id="pressure"></span></li>
               
             </ul>
            
@@ -91,10 +92,10 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Wind Speed is <span id="wind_speed"></span></li>
               <li>Wind Degree is <span id="wind_degrees"></span></li>
-              <li>Sunrise Time is <span id="sunrise"></span></li>
-              <li>Sunset Time  is <span id="sunset"></span></li>
+              <li>Gust speed is <span id="gust"></span></li>
+              <li>Dew Point is <span id="dewpoint"></span></li>
             </ul>
-            
+             
           </div>
         </div>
       </div>
@@ -108,13 +109,13 @@
         <thead>
           <tr>
             <th style="width: 34%;"></th>
-            <th style="width: 28%;"> Cloud_pct </th>
-            <th style="width: 28%;"> Feels_like </th>
-            <th style="width: 28%;"> Humidity </th>
-            <th style="width: 28%;"> Max_temp </th>
-            <th style="width: 28%;"> Min_temp </th>
-            <th style="width: 28%;"> Sunrise </th>
-            <th style="width: 28%;"> Sunset </th>
+            <th style="width: 8%;"> Cloud_pct </th>
+            <th style="width: 12%;"> Feels_like </th>
+            <th style="width: 7%;"> Humidity </th>
+            <th style="width: 15%;"> Pressure </th>
+            <th style="width: 8%;"> Heat_index</th>
+            <th style="width: 8%;"> Gust_speed </th>
+            <th style="width: 28%;"> Dew_point </th>
             <th style="width: 28%;"> Temp </th>
             <th style="width: 28%;"> Wind_degrees </th>
             <th style="width: 28%;"> Wind_speed </th>
@@ -127,10 +128,10 @@
             <td><span id="cloud_pct10"></span></td>
             <td><span id="feels_like10"></span></td>
             <td><span id="humidity10"></span></td>
-            <td><span id="max_temp10"></span></td>
-            <td><span id="min_temp10"></span></td>
-            <td><span id="sunrise10"></span></td>
-            <td><span id="sunset10"></span></td>
+            <td><span id="pressure10"></span></td>
+            <td><span id="heat_index10"></span></td>
+            <td><span id="gust10"></span></td>
+            <td><span id="dewpoint10"></span></td>
             <td><span id="temp10"></span></td>
             <td><span id="wind_degrees10"></span></td>
             <td><span id="wind_speed10"></span></td>
@@ -140,10 +141,10 @@
             <td><span id="cloud_pct11"></span></td>
             <td><span id="feels_like11"></span></td>
             <td><span id="humidity11"></span></td>
-            <td><span id="max_temp11"></span></td>
-            <td><span id="min_temp11"></span></td>
-            <td><span id="sunrise11"></span></td>
-            <td><span id="sunset11"></span></td>
+            <td><span id="pressure11"></span></td>
+            <td><span id="heat_index11"></span></td>
+            <td><span id="gust11"></span></td>
+            <td><span id="dewpoint11"></span></td>
             <td><span id="temp11"></span></td>
             <td><span id="wind_degrees11"></span></td>
             <td><span id="wind_speed11"></span></td>
@@ -156,10 +157,10 @@
             <td><span id="cloud_pct12"></span></td>
             <td><span id="feels_like12"></span></td>
             <td><span id="humidity12"></span></td>
-            <td><span id="max_temp12"></span></td>
-            <td><span id="min_temp12"></span></td>
-            <td><span id="sunrise12"></span></td>
-            <td><span id="sunset12"></span></td>
+            <td><span id="pressure12"></span></td>
+            <td><span id="heat_index12"></span></td>
+            <td><span id="gust12"></span></td>
+            <td><span id="dewpoint12"></span></td>
             <td><span id="temp12"></span></td>
             <td><span id="wind_degrees12"></span></td>
             <td><span id="wind_speed12"></span></td>
@@ -169,10 +170,10 @@
             <td><span id="cloud_pct13"></span></td>
             <td><span id="feels_like13"></span></td>
             <td><span id="humidity13"></span></td>
-            <td><span id="max_temp13"></span></td>
-            <td><span id="min_temp13"></span></td>
-            <td><span id="sunrise13"></span></td>
-            <td><span id="sunset13"></span></td>
+            <td><span id="pressure13"></span></td>
+            <td><span id="heat_index13"></span></td>
+            <td><span id="gust13"></span></td>
+            <td><span id="dewpoint13"></span></td>
             <td><span id="temp13"></span></td>
             <td><span id="wind_degrees13"></span></td>
             <td><span id="wind_speed13"></span></td>
